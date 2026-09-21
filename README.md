@@ -8,6 +8,10 @@ A Real-Time Cyber Threat Intelligence (CTI) Dashboard that aggregates threat fee
 ## 📸 Live Demo
 Screenshot: 13 IOCs tested - google.com (Clean 7), 8.8.8.8 (Medium 63), Tor Node (Medium 69), Brute Force (High 88)
 
+## 📸 Live Demo
+![Dashboard Screenshot](./Screenshot_20260921-081010-1.jpg)
+
+*Tested with 10+ IOCs - Clean: 30%, Medium: 30%, High: 40%*
 ## ✨ Features Covered
 - Pull data from CTI sources (AbuseIPDB/VirusTotal ready)
 - Display threat level, IOC, trends with color coding
