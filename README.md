@@ -46,7 +46,7 @@ Screenshot: 13 IOCs tested - google.com (Clean 7), 8.8.8.8 (Medium 63), Tor Node
 Python, Flask, HTML, CSS, JS, AbuseIPDB API, VirusTotal API
 
 ## 👩‍💻 Author
-Sukanya - Cybersecurity Intern @ ElevateLabs - Hyderabad
+Sukanya - Cybersecurity Intern @ ElevateLabs 
 
 ## 📄 License
 MIT - Star this repo ⭐
