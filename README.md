@@ -77,6 +77,7 @@ Tested 4 Real-World IOCs:
 
 #### 4. 200.7.159.35 (Alvarez Cable Hogar S.A. - Argentina) [ACTIVE THREAT]
 - **AbuseIPDB:** 13% Caution, 4 Reports from 3 sources, Latest 3-4 minutes ago
+- ![AbuseUPDB](/Sreenshot_20260930-201838-1.jpg)
 - **ISP:** Fixed Line ISP, Host: host35.200-7-159.ach-internet.com.ar
 - **City:** Perez, Santa Fe, AR
 - **Categories:** Bad Web Bot (2x), Brute-Force (1x), Web App Attack (1x), DDoS Attack (1x), Email Spam, Hacking
