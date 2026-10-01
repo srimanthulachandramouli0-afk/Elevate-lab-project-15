@@ -54,3 +54,36 @@ Sukanya - Cybersecurity Intern @ ElevateLabs
 
 ## 📄 License
 MIT - Star this repo ⭐
+
+
+### Analysis & Findings
+Also check with real ip adress
+Tested 4 Real-World IOCs:
+
+#### 1. google.com
+- **VirusTotal:** 2/91 Vendors flagged as Phishing
+- **Verdict:** Safe - False Positive
+- **Lesson:** 2 flags out of 91 is FP. Need confidence score, not just count.
+
+#### 2. 188.46.55.67 (Telefonica Germany)
+- **VirusTotal:** 0/91 Clean
+- **Verdict:** 100% Safe
+- **Lesson:** Clean infrastructure IPs.
+
+#### 3. 8.8.8.8 (Google Public DNS)
+- **AbuseIPDB:** 0% Abuse Confidence, WHITELISTED, but 362 Reports
+- **Verdict:** Safe - Trusted Public Service
+- **Lesson:** Reports count alone is misleading if IP is whitelisted.
+
+#### 4. 200.7.159.35 (Alvarez Cable Hogar S.A. - Argentina) [ACTIVE THREAT]
+- **AbuseIPDB:** 13% Caution, 4 Reports from 3 sources, Latest 3-4 minutes ago
+- **ISP:** Fixed Line ISP, Host: host35.200-7-159.ach-internet.com.ar
+- **City:** Perez, Santa Fe, AR
+- **Categories:** Bad Web Bot (2x), Brute-Force (1x), Web App Attack (1x), DDoS Attack (1x), Email Spam, Hacking
+- **Verdict:** Active Threat - Still engaged in abusive activity
+- **Lesson:** Recency is more important than score. 13% but reported 4 mins ago = Active.
+
+> **Key Insight:** Single source is not enough. True CTI needs correlation of VT detections + AbuseIPDB score + Whitelist status + Recency + WHOIS/ISP context.
+
+### Threat Logic Used in Dashboard
+
