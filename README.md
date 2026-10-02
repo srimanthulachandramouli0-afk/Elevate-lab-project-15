@@ -94,7 +94,7 @@ Tested 4 Real-World IOCs:
 - City: Perez, Santa Fe, AR
 - Verdict: Active Threat
 
-![Active Threat](screenshots/screenshot2.png)
+![Active Threat](Screenshot_20260930-201838-1.jpg)
 
 ### Google DNS 8.8.8.8 - SAFE
 - AbuseIPDB: 0% WHITELISTED
