@@ -100,5 +100,5 @@ Tested 4 Real-World IOCs:
 - AbuseIPDB: 0% WHITELISTED
 - Verdict: Safe
 
-![Safe IP](screenshots/screenshot1.png)
+![Safe IP](Screenshot_20260930-201116-1.jpg)
 
